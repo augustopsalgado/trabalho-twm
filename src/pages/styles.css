@@ -1,0 +1,471 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #181818 ;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #181818 ;
+    
+  }
+  
+  .main  {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #201b2d;
+    border-radius: 1.5rem;
+    box-shadow: 0px, 11px 35px 2px rgba(0, 0, 0, 0.14);
+  
+  }
+  
+  
+  
+ 
+  
+  .sign {
+    padding-top: 40px;
+    font-size: 23px;
+    font-weight: 700;
+    color: #5a4b81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .sign {
+    color: #ffffff;
+  }
+  
+  .username {
+    width: 76%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .password {
+    width: 76%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  
+  .username,
+  .password {
+    color: rgb(254, 255, 255);
+    background: rgba(255, 247, 247, 0.299);
+  }
+  
+  .username::placeholder,
+  .password::placeholder {
+    color: rgb(254, 255, 255);
+  }
+  
+  input:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+  }
+  
+  .submit {
+    cursor: pointer;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #5a4b81;
+    width: 76%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .submit{
+    margin: 5px;
+
+  }
+  .forgot {
+    font-weight: 700;
+    color: #5a4b81;
+    text-decoration: none;
+    padding-top: 15px;
+    margin:0;
+    padding: 0;
+
+}
+  
+  a {
+    font-weight: 700;
+    color: #5a4b81;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .main {
+      border-radius: 0px;
+    }
+  }
+  
+
+  
+  .card-post {
+    background-color: #2F3644;
+    padding: 30px 70px;
+    border-radius: 15px;
+}
+
+.main h1{
+    font-family: Heebo;
+    font-weight: 800;
+    text-align: center;
+
+    color: #D2DAF5;
+
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.line-post {
+    height: 2px;
+    background-color: #3E445B;
+}
+
+.card-body-post {
+    margin-top: 25px;
+
+}
+
+.fields {
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 1.2rem;
+
+    color: #D2DAF5;
+
+    font-family: Poppins;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+
+    font-size: 1.2rem;
+
+    padding-left: 15px;
+}
+
+input {
+    height: 45px;
+}
+
+textarea {
+    height: 190px;
+    resize: none;
+
+    padding-top: 10px;
+}
+
+.btn-post{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.btn-post button{
+    font-family: Heebo;
+    font-weight: 800;
+    font-size: 1.3rem;
+    padding: 5px 50px;
+    color: #fff;
+    background-color: #3DECB1;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.error-message {
+    color: rgb(240, 47, 47);
+}
+.logo{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .fundo-cinza{
+      width: 100%;
+      height: 101%;
+      opacity: 70%;
+      position: absolute;
+      top: 49.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+  }
+  .imagemfundo{
+      width: 100%;
+  }
+  
+  * {
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .topo{
+      position: relative;
+      text-align: center;
+      width: 100%;
+      
+  }
+  
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+  
+  }
+  
+  .espaco{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-top: 1%;
+     margin-left: 2%;
+     margin-right: 2%;
+     margin-bottom: 1%;
+  
+  }
+  .botoes{
+  
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+     
+  }
+  
+  .botao1{
+    width: 200px;
+    height: 70px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botao2{
+    width: 200px;
+    height: 70px;
+    background-color: #000000;
+    color: white;
+    
+    margin: 8px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .redes-sociais{
+      
+      display: flex;
+      flex-wrap:nowrap;
+      flex-direction: row;
+  }
+  
+  .botao3{
+    width: 70px;
+    height: 70px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    margin: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .contatos{
+      display: flex;
+      flex-wrap:wrap;
+      flex-direction: row;
+      margin: 10px;
+      padding: 10px;
+  
+  }
+  
+  .contatog{
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap:wrap;
+      margin: 1%;
+      width: 380px;
+      height: 200px;
+      border: 1px solid #E6E6F0;
+      border-radius: 5px;
+        background-color: #D2DAF5;
+  }
+  .titulo{
+      font-weight:bold;
+      font-size: 150%;
+      margin-top: 4%;
+      margin-left: 4%;
+  
+  }
+  
+  .texto{
+      font-weight: normal;
+      font-size: 100%;
+      margin: 4%;
+  
+  }
+  
+  .rodape{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+     
+  
+  }
+  .caixa-rodape{
+      
+      align-items: center;
+      background-color: #FAFAFC;
+  }
+  
+  .preco{
+  margin: 3%;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+  margin-top: 20%;
+  margin-left: 10px;
+  
+  }
+  .botao-contato{
+    background-color: #04D361; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+      
+  }
+  
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr{
+    color: #ddd;
+    background-color: #553855;}
+  
+  
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4e0058;
+    color: white;
+  }
+
+  .btn-answer{
+   font-family: Heebo;
+    font-weight: 800;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #b951ff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+  .btn-delete{
+    font-family: Heebo;
+    font-weight: 800;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #ff5656;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+  .hom{
+    font-size: 500%;
+    color: #D2DAF5;
+    text-align: center;
+   
+   }
+   
+  .nav{
+    font-size: 150%;
+    color: #D2DAF5;
+    text-align: center;
+   
+   }
