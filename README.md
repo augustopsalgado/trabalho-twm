@@ -1,14 +1,14 @@
-Telas 
-tela inicia de login
-tela de cadastro
-tela inicial de cliente
-	-abrir chamado(carrega fotos)
-	-produtos
-	-laudos
-tela inicial do tecnico
-	-ver chamados(envia laudo)
-	-ver laudos
-	-produtos
+ <p>Telas: </p>
+ <p>tela inicia de login</p>
+ <p>tela de cadastro</p>
+ <p>tela inicial de cliente</p>
+	 <p>-abrir chamado(carrega fotos)</p>
+	 <p>-produtos</p>
+	 <p>-laudos</p>
+ <p>tela inicial do tecnico</p>
+	 <p>-ver chamados(envia laudo)</p>
+	 <p>-ver laudos</p>
+	 <p>-produtos</p>
 ![tela1](https://user-images.githubusercontent.com/42944134/185239073-66cf9beb-b6c0-412f-8ab7-ec5ea71f20dd.jpg)
 ![tela2](https://user-images.githubusercontent.com/42944134/185239057-478319d1-69dc-4369-bcb7-6dc0ba7af4d6.jpg)
 ![tela3](https://user-images.githubusercontent.com/42944134/185239062-c776e709-7b03-4f5d-bd8e-70e614b5df97.jpg)
